@@ -4,11 +4,12 @@ This project demonstrates a basic client-server architecture using Cisco Packet 
 
 ## 📁 Files Included
 
-| File                         | Description                                |
-|------------------------------|--------------------------------------------|
-| `Client Server Network.pkt`  | Cisco Packet Tracer file for this lab      |
-| `pk1.png → pk6.png`          | Screenshots of topology, config, testing   |
-| `README.md`                  | Documentation (this file)                  |
+| File | Description |
+|------|-------------|
+| [Client Server Network.pkt](./Client%20Server%20Network.pkt) | Cisco Packet Tracer file for Lab 2 |
+| [pk1.png](./pk1.png) → [pk6.png](./pk6.png) | Screenshots of topology, configuration, and verification |
+| [README.md](./README.md) | Documentation (this file) |
+
 
 ## 🧠 Objective
 
