@@ -2,15 +2,6 @@
 
 This project demonstrates a basic client-server architecture using Cisco Packet Tracer. A server provides DHCP services to two client PCs connected through a switch.
 
-## 📁 Files Included
-
-| File | Description |
-|------|-------------|
-| [Client Server Network.pkt](./Client%20Server%20Network.pkt) | Cisco Packet Tracer file |
-| [pk1.png](./pk1.png) → [pk6.png](./pk6.png) | Screenshots of topology, configuration, and verification |
-| [README.md](./README.md) | Documentation (this file) |
-
-
 ## 🧠 Objective
 
 To simulate and configure a simple client-server network where:
@@ -73,6 +64,13 @@ Result:
 
 ---
 
+## 📁 Files Included
+
+| File | Description |
+|------|-------------|
+| [Client Server Network.pkt](./Client%20Server%20Network.pkt) | Cisco Packet Tracer file |
+| [pk1.png](./pk1.png) → [pk6.png](./pk6.png) | Screenshots of topology, configuration, and verification |
+| [README.md](./README.md) | Documentation (this file) |
 ## 🔗 Author
 
 Anthony Alston  
