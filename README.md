@@ -11,27 +11,27 @@ To simulate and configure a simple client-server network where:
 
 ## Network Topology
 
-- One DHCP server (**Server0**)
-- Two client PCs (**PC0, PC1**)
-- One switch connecting all devices (**Switch0**)
+- One DHCP server (Server0)
+- Two client PCs (PC0, PC1)
+- One switch connecting all devices (Switch0)
 
 ![Network Topology](pk1.png)
 
 ## Configuration Details
 
 ### Server (Static Configuration)
-- IP Address: **192.168.1.2**
-- Subnet Mask: **255.255.255.0**
-- Default Gateway: **192.168.1.1**
+- IP Address: 192.168.1.2
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.1.1
 
 ![Server IP Setup](pk2.png)
 
 ### Server DHCP Settings
-- Pool Name: **serverPool**
-- Start IP Address: **192.168.1.5**
-- Subnet Mask: **255.255.255.0**
-- Default Gateway: **192.168.1.1**
-- Max Users: **5**
+- Pool Name: serverPool
+- Start IP Address: 192.168.1.5
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.1.1
+- Max Users: 5
 
 ![DHCP Config](pk3.png)
 
@@ -39,16 +39,16 @@ To simulate and configure a simple client-server network where:
 
 Both PCs are configured to obtain IP addresses automatically via DHCP from the server.
 
-Example from **PC0**:
-- IP Address: **192.168.1.5**
-- Subnet Mask: **255.255.255.0**
-- Default Gateway: **192.168.1.1**
+Example from PC0:
+- IP Address: 192.168.1.5
+- Subnet Mask: 255.255.255.0
+- Default Gateway: 192.168.1.1
 
 ![PC IP](pk6.png)
 
 ## Connectivity Test
 
-Ping test was run from `PC0` to the server’s static IP (`192.168.1.2`).
+Ping test was run from PC0 to the server’s static IP (192.168.1.2).
 
 Result:
 - All packets successfully received (0% loss)
@@ -57,21 +57,15 @@ Result:
 
 ## Notes
 
-- Ensure DHCP service is turned **On** under Server > Services > DHCP.
-- Set interface to **FastEthernet0** in the DHCP settings.
+- Ensure DHCP service is turned On under Server > Services > DHCP.
+- Set interface to FastEthernet0 in the DHCP settings.
 - Use the correct default gateway for your subnet.
-- If a PC receives a **169.254.x.x** address, verify your DHCP configuration.
+- If a PC receives a 169.254.x.x address, verify your DHCP configuration.
 
 ---
 
-## Files Included
-
-| File | Description |
-|------|-------------|
-| [Client Server Network.pkt](./Client%20Server%20Network.pkt) | Cisco Packet Tracer file |
-| [pk1.png](./pk1.png) → [pk6.png](./pk6.png) | Screenshots of topology, configuration, and verification |
-| [README.md](./README.md) | Documentation (this file) |
-## 🔗 Author
+## Author
 
 Anthony Alston  
-GitHub: [AnthonyAAlston](https://github.com/AnthonyAAlston)
+- [LinkedIn](linkedin.com/in/anthonyaalston/)  
+- GitHub: [AnthonyAAlston](https://github.com/AnthonyAAlston)
